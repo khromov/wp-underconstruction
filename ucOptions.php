@@ -158,7 +158,7 @@ $current_theme_has_uc_page = file_exists(get_template_directory() . '/under-cons
 		<br />
 	</div>
 	<form method="post"
-		action="<?php echo $GLOBALS['PHP_SELF'] . '?page=' . $this->mainOptionsPage; ?>"
+		action="<?php echo admin_url('options-general.php?page='.$this->mainOptionsPage); ?>"
 		id="ucoptions">
 		<h2><?php _e('Under Construction', 'underconstruction');?></h2>
 		<table>
