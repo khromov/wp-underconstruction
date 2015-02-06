@@ -1,0 +1,7 @@
+{
+  "name": "khromov/underconstruction",
+  "description": "Under construction plugin",
+  "keywords": ["wordpress", "plugin"],
+  "license": "GPL2",
+  "type": "wordpress-plugin"
+}
